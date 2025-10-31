@@ -1,0 +1,14 @@
+O que é microsserviços ?
+- Diferente do que é no modelo monolito, as aplicações que fazem parte do modelo de microserviços são estruturadas de forma independente onde cada uma tem sua responsabilidade apartada e com sua capacidade de negocio tambem apartada.
+
+Visão geral da arquitetura Monolítica e de Microsserviços
+- Monolítica todas as funcionalidades estão juntas em um único serviço, onde a manutenibilidade acaba sendo complexa, sem falar que caso haja alguma melhoria ou nova feature, é necessário uma indisponibilidade de todas jornadas, já que estão acopladas em um único serviço.
+- Já o modelo de Microserviços temos a responsabilidade apartada entre as funcionalidades da aplicação, dividindo cada item de negócio/jornada por serviços distintos. Isso permite que a manutenção ou implementação de features novas sejam divididas e distribuídas em cada serviço, garantindo uma qualidade e segurança no deploy dos serviços.
+
+Os benefícios da arquitetura de microsserviços - Cite 3 exemplos
+- Isolamento a falhas, responsabilidade unica
+- Escalabilidade dos recursos de forma independente
+- Agilidade no desenvolvimento e manutenção mais eficiente
+
+Quais são os tipos de comunicação entre os microsserviços ?
+- Http/Rest, Mensageria com filas, comunicação por eventos.
